@@ -1,28 +1,19 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+A lightweight application that fetches real-time exchange rates for Bitcoin (BTC), Ethereum (ETH), and Litecoin (LTC) and converts them into the user's selected fiat currency using external REST APIs.
 
+🚀 Features
+Multi-Currency Support: Convert top cryptocurrencies (BTC, ETH, LTC) into your preferred fiat currency dynamically.
 
-# Bitcoin Ticker 🤑
+Live API Integration: Performs HTTP GET requests to fetch up-to-date market prices.
 
-## Our Goal
+Clean & Intuitive Interface: Designed for quick checks without clutter.
 
-The objective of this tutorial is to learn about using Cupertino and Material Widgets in parallel and providing a different user interface depending on the platform.
+🛠️ Tech Stack
+Core Logic: Dart / Python / JavaScript (adjust based on your actual stack)
 
+API: RESTful endpoints for real-time crypto pricing (e.g., CoinGecko or similar public APIs)
 
-## What you will create
+Networking: HTTP client libraries for handling GET requests and parsing JSON payloads.
 
-We’re going to make a crypto currency price checking app. By the end of the module, you'll be able to monitor your bitcoin investents on the move!
-
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/bitcoin-flutter-demo.gif)
-
-## What you will learn
-
-- How to use the DropdownButton Widget from Material design.
-- How to loop through code using Dart for and for-in loops.
-- How to use Cupertino Widgets in your app.
-- How to check the platform your app is being run on to customise the UI for that platform.
-- Revise previous concepts by completing the challenges.
-
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+⚙️ Getting Started
+Prerequisites
+Make sure you have your development environment set up (e.g., Flutter/Dart SDK, Python, or Node.js depending on how you built it).
